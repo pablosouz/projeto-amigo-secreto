@@ -33,4 +33,9 @@ function atualizarLista() {
     }
 }
 
+//limpa o campo de texto após digitar o nome
+function limparCampo() {
+    document.getElementById("amigo").value = "";
+}
+
 
